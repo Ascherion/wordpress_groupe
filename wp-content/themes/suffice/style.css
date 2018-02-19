@@ -7297,3 +7297,8 @@ body.admin-bar {
 .updated:not(.published) {
 	display: none;
 }
+
+.site-content {
+	float: left;
+	width: 65.1042%;
+  }
