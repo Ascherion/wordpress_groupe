@@ -48,5 +48,5 @@ do_action( 'suffice_before_body_content' ); ?>
  */
 do_action( 'suffice_after_body_content' ); ?>
 
-<?php //get_sidebar(); ?>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
