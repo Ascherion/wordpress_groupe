@@ -425,3 +425,13 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+register_sidebar( array(
+	'name' => '404 Page',
+	'id' => '404',
+	'description'  => __( 'Content for your 404 error page goes here.' ),
+	'before_widget' => '<div id="error-box">',
+	'after_widget' => '</div>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>'
+  ) );
