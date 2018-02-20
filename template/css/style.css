@@ -1,4 +1,5 @@
 body {
+  margin: 2.5%;
   background-color: #1a1a1a; }
 
 p {
@@ -42,16 +43,21 @@ h2 {
 .cyanIcon {
   color: #00D7BB; }
 
-.cyanBackground {
+.cyanBackground, .cyanBlock {
   background-color: #00D7BB;
   color: white; }
 
 .cyanBlock {
-  background-color: #00D7BB;
-  color: white;
   border: none;
   width: 15rem;
   height: 4rem; }
+
+.cyanBackground {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 5rem; }
+  .cyanBackground .fa-image {
+    margin-top: 10%; }
 
 #firefoxIcon {
   color: #EF5350; }
@@ -70,8 +76,8 @@ h2 {
 
 .buttonHireMe {
   border: none;
-  width: 12rem;
-  height: 4rem; }
+  width: 10rem;
+  height: 3rem; }
 
 .marginBottom {
   margin-bottom: 6rem; }

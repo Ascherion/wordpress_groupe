@@ -7,8 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="card">
@@ -118,7 +117,7 @@
                                     <div class="card">
                                         <i class="far fa-lightbulb fa-w-12 fa-2x img cyanIcon"></i>
                                         <div class="card-body">
-                                            <p class="card-text">Logo Design.</p>
+                                            <p class="card-text">Logo Design</p>
                                         </div>
                                     </div>
                                 </div>
@@ -171,12 +170,12 @@
                         </div>
 
                         <div class="row text-center cyanBackground" id="hireMe">
-                            <span class="col-12 col-md-2">
+                            <span class="col-12 col-md-2 p-2">
                                 <i class="far fa-image fa-3x"></i>
                             </span>
-                            <p class="col-12 col-md-6">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
-                            <span class="col-12 col-md-4">
-                                <button class="">
+                            <p class="col-12 col-md-6 mt-3">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                            <span class="col-12 col-md-4 mt-3">
+                                <button class="buttonHireMe">
                                     <i class="far fa-envelope fa-lg"></i>Hire Me
                                 </button>
                             </span>
