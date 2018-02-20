@@ -114,28 +114,36 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="row">
-                                    <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <i class="far fa-lightbulb"></i>                                        
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <i class="far fa-lightbulb"></i>                                        
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <i class="fab fa-firefox"></i>
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <i class="fab fa-firefox"></i>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <i class="fas fa-desktop"></i>
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <i class="fas fa-desktop"></i>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <i class="fas fa-mobile"></i>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <i class="fas fa-mobile"></i>
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
