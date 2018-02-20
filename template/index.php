@@ -66,7 +66,7 @@
                                             <h2>Hello</h2>
                                             <h5>'lo</h5>
                                             <p>nya</p>
-                                            <button><i class="fas fa-image"></i>View Portfolio</button>
+                                            <button class="cyanBlock"><i class="far fa-image mr-3"></i>View Portfolio</button>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                             <h2>Hello</h2>
                                             <h5>'lo</h5>
                                             <p>nya</p>
-                                            <button><i class="fas fa-image"></i>View Portfolio</button>
+                                            <button class="cyanBlock"><i class="far fa-image mr-3"></i>View Portfolio</button>
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                             <h2>Hello</h2>
                                             <h5>'lo</h5>
                                             <p>nya</p>
-                                            <button><i class="fas fa-image"></i>View Portfolio</button>
+                                            <button class="cyanBlock"><i class="far fa-image mr-3"></i>View Portfolio</button>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="col-lg-8 col-12 bg-dark bgMargin">
-                        <h2><i class="fas fa-user"></i>About Me</h2>
+                        <h2><i class="far fa-user cyanIcon mr-2"></i>About Me</h2>
                         <p>Hello,I’m John Doe Creative Graphic Designer & User Experience Desiger based in Website,
                             I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem
                             Ipsum. Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor,
@@ -116,9 +116,9 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="far fa-lightbulb fa-w-12 fa-2x img"></i>
+                                            <i class="far fa-lightbulb fa-w-12 fa-2x img cyanIcon"></i>
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p class="card-text">Some quick example text.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -126,7 +126,7 @@
                                         <div class="card">
                                             <i class="fab fa-firefox fa-w-15 fa-2x img"></i>
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p class="card-text">Some quick example text.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                         <div class="card">
                                             <i class="fas fa-desktop fa-w-18 fa-2x img"></i>
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p class="card-text">Some quick example text.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@
                                         <div class="card">
                                             <i class="fas fa-mobile-alt fa-w-10 fa-2x img"></i>
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p class="card-text">Some quick example text.</p>
                                             </div>
                                         </div>
                                     </div>

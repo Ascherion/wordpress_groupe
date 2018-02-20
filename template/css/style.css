@@ -2,6 +2,12 @@ body {
   margin: 2.5%;
   background-color: #1a1a1a; }
 
+p {
+  color: white; }
+
+h2 {
+  color: white; }
+
 /*div{
     span{
         padding-right: 2%;
@@ -13,15 +19,31 @@ body {
 .navbar, .carousel {
   margin-bottom: 2%; }
 
+.card {
+  border-radius: 0; }
+
 .personalDetail {
   padding-right: 3rem;
   padding-left: 3rem; }
+  .personalDetail h3 {
+    color: white; }
 
 .img {
   margin: 2rem;
   margin-top: 2rem; }
 
 .bgMargin {
-  margin: 1rem; }
+  margin: 1rem;
+  padding: 3rem; }
+
+.cyanIcon {
+  color: #00D7BB; }
+
+.cyanBlock {
+  background-color: #00D7BB;
+  color: white;
+  border: none;
+  width: 15rem;
+  height: 4rem; }
 
 /*# sourceMappingURL=style.css.map */

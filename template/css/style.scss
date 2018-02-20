@@ -1,6 +1,17 @@
+$primaryColor: white;
+$blockColor: #00D7BB;
+
 body{
     margin: 2.5%;
-    background-color:#1a1a1a
+    background-color:#1a1a1a;
+}
+
+p{
+    color: $primaryColor;
+}
+
+h2{
+    color: $primaryColor;
 }
 
 /*div{
@@ -13,16 +24,22 @@ body{
     button{
         float: left;
     }
-
 }
 
 .navbar, .carousel{
     margin-bottom: 2%;
 }
 
+.card{
+    border-radius: 0;
+}
+
 .personalDetail{
     padding-right: 3rem;
     padding-left: 3rem;
+    h3{
+        color: $primaryColor;
+    }
 
 }
 
@@ -33,4 +50,17 @@ body{
 
 .bgMargin{
     margin: 1rem;
+    padding: 3rem;
+}
+
+.cyanIcon{
+    color: $blockColor;
+}
+
+.cyanBlock{
+    background-color: $blockColor;
+    color: $primaryColor;
+    border: none;
+    width: 15rem;
+    height: 4rem;
 }
