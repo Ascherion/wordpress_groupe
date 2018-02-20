@@ -116,15 +116,10 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="far fa-lightbulb"></i>                                        
-                                            <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                            <div>
+                                                <i class="far fa-lightbulb card-img-top"></i>
                                             </div>
-                                        </div>
-                                    </div> 
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="card">
-                                            <i class="fab fa-firefox"></i>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                             </div>
@@ -132,7 +127,10 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="fas fa-desktop"></i>
+                                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                            <div>
+                                                <i class="fab fa-firefox"></i>
+                                            </div>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                             </div>
@@ -140,7 +138,21 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="fas fa-mobile"></i>
+                                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                            <div>
+                                                <i class="fas fa-desktop"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                            <div>
+                                                <i class="fas fa-mobile"></i>
+                                            </div>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                             </div>
@@ -169,12 +181,13 @@
                                     <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                                 </div>
                             </div>
-                            <div>
+                            <div class="row p-3" id="hire me">
                                 <span>
                                     <i class="fas fa-image"></i><p>Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
                                 </span>
                                 <span>
-
+                                    <i class="far fa-envelope"></i>
+                                    Hire Me
                                 </span>
                             </div>
                         </div>
