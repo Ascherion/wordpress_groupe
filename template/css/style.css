@@ -20,6 +20,10 @@ h2 {
 
 .aboutMe {
   padding: 2rem; }
+  .aboutMe .card:hover p {
+    /* {
+         background-color: $blockColor;
+     }*/ }
 
 .personalDetail {
   padding-right: 3rem;

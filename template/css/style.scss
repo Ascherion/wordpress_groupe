@@ -1,5 +1,8 @@
 $primaryColor: white;
 $blockColor: #00D7BB;
+$firefoxColor: #EF5350;
+$desktopColor: #FBC02D;
+$appliColor: #AB47BC;
 
 body{
     //margin: 2.5%;
@@ -32,6 +35,14 @@ h2{
 
 .aboutMe{
     padding: 2rem;
+    .card:hover{
+        p{
+           /* {
+                background-color: $blockColor;
+            }*/
+
+        }
+    }
 }
 
 .personalDetail{
@@ -41,7 +52,6 @@ h2{
     h6{
         color: $primaryColor;
     }
-
 }
 
 .img{
@@ -71,15 +81,15 @@ h2{
 }
 
 #firefoxIcon{
-    color: #EF5350;
+    color: $firefoxColor;
 }
 
 #desktopIcon{
-    color: #FBC02D;
+    color: $desktopColor;
 }
 
 #phoneIcon{
-    color: #AB47BC;
+    color: $appliColor;
 }
 
 
