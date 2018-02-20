@@ -103,7 +103,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-12">
+                    <div class="col-lg-8 col-12 bg-dark bgMargin">
                         <h2><i class="fas fa-user"></i>About Me</h2>
                         <p>Hello,I’m John Doe Creative Graphic Designer & User Experience Desiger based in Website,
                             I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem
@@ -111,7 +111,7 @@
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
                         </p>
-                        <div class="row bg-dark">
+                        <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
