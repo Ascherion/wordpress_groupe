@@ -7,11 +7,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-<<<<<<< HEAD
+
             <div class="container">
-=======
-            <div class="container-flex">
->>>>>>> a57083ce88a45684b2466e79f06906106741ad3b
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="card">
@@ -172,6 +169,7 @@
                                 <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                             </div>
                         </div>
+
                         <div class="row text-center cyanBackground" id="hireMe">
                             <span class="col-12 col-md-2">
                                 <i class="far fa-image fa-3x"></i>
@@ -183,6 +181,7 @@
                                 </button>
                             </span>
                         </div>
+
                     </div>
                 </div>
             </div>
