@@ -14,12 +14,6 @@ h2{
     color: $primaryColor;
 }
 
-/*div{
-    span{
-        padding-right: 2%;
-    }
-}*/
-
 .carousel-caption{
     button{
         float: left;
@@ -32,12 +26,19 @@ h2{
 
 .card{
     border-radius: 0;
+    background-color: #2C2C2C;
+    margin-bottom: 5%;
+}
+
+.aboutMe{
+    padding: 2rem;
 }
 
 .personalDetail{
     padding-right: 3rem;
     padding-left: 3rem;
-    h3{
+    border-bottom: solid 1px $primaryColor ;
+    h6{
         color: $primaryColor;
     }
 
@@ -48,13 +49,17 @@ h2{
     margin-top: 2rem;
 }
 
-.bgMargin{
-    margin: 1rem;
-    padding: 3rem;
+.bgDark{
+    background-color: #222222;
 }
 
 .cyanIcon{
     color: $blockColor;
+}
+
+.cyanBackground{
+    background-color: $blockColor;
+    color: $primaryColor;
 }
 
 .cyanBlock{
@@ -65,6 +70,34 @@ h2{
     height: 4rem;
 }
 
-#hireMe {
-    background-color:  $blockColor;
+#firefoxIcon{
+    color: #EF5350;
+}
+
+#desktopIcon{
+    color: #FBC02D;
+}
+
+#phoneIcon{
+    color: #AB47BC;
+}
+
+
+.bgMargin{
+    padding: 3rem;
+    @media (max-width: 960px){
+        margin: 1rem;
+    }
+}
+
+.buttonHireMe{
+    border: none;
+    width: 12rem;
+    height: 4rem;
+    //float: right;
+}
+
+
+.marginBottom{
+    margin-bottom: 6rem;
 }
