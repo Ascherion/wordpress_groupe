@@ -7,7 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-            <div class="">
+            <div class="container-flex">
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="card">
@@ -22,7 +22,11 @@
                         </div>
                     </div>
                     <div class="col-lg-8 col-12">
-                        <nav class="navbar navbar-expand navbar-dark bg-dark">
+                        <nav class="navbar navbar-expand navbar-dark bgDark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 list-inline">
                                     <li class="nav-item active list-inline-item">
                                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -49,9 +53,10 @@
                                     </button>
                                     <input class="collapse form-control mr-sm-2" id="searchToggle" type="search" placeholder="Search" aria-label="Search">
                                 </form>
+                            </div>
                         </nav>
                     </div>
-                    <div class="col-lg-8 offset-lg-4 col-12">
+                    <div class="col-lg-8 offset-lg-4 col-12 bgDark bgMargin">
                         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -93,19 +98,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-12 bg-dark bgMargin">
-                        <h2><i class="far fa-user cyanIcon mr-2"></i>About Me</h2>
-                        <p>Hello,I’m John Doe Creative Graphic Designer & User Experience Desiger based in Website,
+                </div>
+                    <div class="col-lg-8 col-12 offset-lg-4 bgDark aboutMe">
+                        <h2 class="mb-5"><i class="far fa-user cyanIcon mr-2"></i>About Me</h2>
+                        <p class="marginBottom">Hello,I’m John Doe Creative Graphic Designer & User Experience Desiger based in Website,
                             I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem
                             Ipsum. Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate
@@ -124,7 +123,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="fab fa-firefox fa-w-15 fa-2x img"></i>
+                                            <i class="fab fa-firefox fa-w-15 fa-2x img" id="firefoxIcon"></i>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text.</p>
                                             </div>
@@ -132,7 +131,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="fas fa-desktop fa-w-18 fa-2x img"></i>
+                                            <i class="fas fa-desktop fa-w-18 fa-2x img" id="desktopIcon"></i>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text.</p>
                                             </div>
@@ -140,7 +139,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="card">
-                                            <i class="fas fa-mobile-alt fa-w-10 fa-2x img"></i>
+                                            <i class="fas fa-mobile-alt fa-w-10 fa-2x img" id="phoneIcon"></i>
                                             <div class="card-body">
                                                 <p class="card-text">Some quick example text.</p>
                                             </div>
@@ -148,8 +147,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 personalDetail">
-                                <h3 class="mb-5">PERSONAL DETAIL</h3>
+                            <div class="col-lg-6 col-md-6 col-sm-12 personalDetail underline">
+                                <h6 class="mb-5">PERSONAL DETAILS</h6>
                                 <div class="d-flex justify-content-between">
                                     <p class="text-muted">Full Name<p>:</p><p>John Doe</p>
                                 </div>
@@ -169,18 +168,17 @@
                                     <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                                 </div>
                             </div>
-                            <div class="row p-3" id="hire me">
-                                <span>
-                                    <i class="fas fa-image"></i><p>Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
-                                </span>
-                                <span>
+                            <div class="row p-3 cyanBlock" id="hire me">                               
+                                    <p><i class="far fa-image fa-3x"></i></p>
+                                    <p>Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                                <button class="buttonHireMe" type="submit">
                                     <i class="far fa-envelope"></i>
                                     Hire Me
-                                </span>
+                                </button>
                             </div>
                         </div>
                     </div>
-                </div>
+                
             </div>
             <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         </body>

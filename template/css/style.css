@@ -8,11 +8,6 @@ p {
 h2 {
   color: white; }
 
-/*div{
-    span{
-        padding-right: 2%;
-    }
-}*/
 .carousel-caption button {
   float: left; }
 
@@ -20,21 +15,26 @@ h2 {
   margin-bottom: 2%; }
 
 .card {
-  border-radius: 0; }
+  border-radius: 0;
+  background-color: #2C2C2C;
+  margin-bottom: 5%; }
+
+.aboutMe {
+  padding: 2rem; }
 
 .personalDetail {
   padding-right: 3rem;
-  padding-left: 3rem; }
-  .personalDetail h3 {
+  padding-left: 3rem;
+  border-bottom: solid 1px white; }
+  .personalDetail h6 {
     color: white; }
 
 .img {
   margin: 2rem;
   margin-top: 2rem; }
 
-.bgMargin {
-  margin: 1rem;
-  padding: 3rem; }
+.bgDark {
+  background-color: #222222; }
 
 .cyanIcon {
   color: #00D7BB; }
@@ -45,5 +45,28 @@ h2 {
   border: none;
   width: 15rem;
   height: 4rem; }
+
+#firefoxIcon {
+  color: #EF5350; }
+
+#desktopIcon {
+  color: #FBC02D; }
+
+#phoneIcon {
+  color: #AB47BC; }
+
+.bgMargin {
+  padding: 3rem; }
+  @media (max-width: 960px) {
+    .bgMargin {
+      margin: 1rem; } }
+
+.buttonHireMe {
+  border: none;
+  width: 12rem;
+  height: 4rem; }
+
+.marginBottom {
+  margin-bottom: 6rem; }
 
 /*# sourceMappingURL=style.css.map */
