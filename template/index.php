@@ -115,28 +115,24 @@
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="row">
                                     <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
-                                        <i class="far fa-lightbulb"></i>
+                                        <i class="far fa-lightbulb"></i>                                        
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
                                         <i class="fab fa-firefox"></i>
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
                                         <i class="fas fa-desktop"></i>
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div class="card col-lg-6 col-md-6 col-sm-12">
-                                        <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
                                         <i class="fas fa-mobile"></i>
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,19 +142,32 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 personalDetail">
                                 <h3 class="mb-5">PERSONAL DETAIL</h3>
-                                <div class="row">
-                                <div class="d-inline-flex">
-                                    <p class="text-muted">Full Name</p><p>:</p><p>John Doe</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Full Name<p>:</p><p>John Doe</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Address<p>:</p><p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Zip Code<p>:</p><p>455001</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Phone<p>:</p><p>+91 123 456 7890 , 0123 456789</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Email<p>:</p><p>johndoe@example.com</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                                 </div>
                             </div>
+                            <div>
+                                <span>
+                                    <i class="fas fa-image"></i><p>Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                                </span>
+                                <span>
 
-                            <div class="row col-12">
-                                <div>
-                                    <i class="fas fa-image"></i>
-                                </div>
-                                <div>
-                                    
-                                </div>
+                                </span>
                             </div>
                         </div>
                     </div>

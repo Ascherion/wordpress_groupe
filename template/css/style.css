@@ -12,4 +12,8 @@ body {
 .navbar, .carousel {
   margin-bottom: 2%; }
 
+.personalDetail {
+  padding-right: 3rem;
+  padding-left: 3rem; }
+
 /*# sourceMappingURL=style.css.map */
