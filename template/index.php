@@ -111,7 +111,7 @@
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
                         </p>
-                        <div class="row">
+                        <div class="row bg-dark">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
