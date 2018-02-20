@@ -130,11 +130,24 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 personalDetail">
                                 <h3 class="mb-5">PERSONAL DETAIL</h3>
-                                <div class="row">
-                                <div class="d-inline-flex">
-                                    <p class="text-muted">Full Name<p>:<p><p>John Doe</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Full Name<p>:</p><p>John Doe</p>
                                 </div>
-                                
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Address<p>:</p><p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Zip Code<p>:</p><p>455001</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Phone<p>:</p><p>+91 123 456 7890 , 0123 456789</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Email<p>:</p><p>johndoe@example.com</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-muted">Website<p>:</p><p>http://example.com</p>
+                                </div>                                
                             </div>
                         </div>
                     </div>
