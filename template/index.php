@@ -7,11 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-<<<<<<< HEAD
-            <div class="container">
-=======
             <div class="container-flex">
->>>>>>> a57083ce88a45684b2466e79f06906106741ad3b
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="card">
