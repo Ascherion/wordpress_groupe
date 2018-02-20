@@ -112,15 +112,15 @@
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
                         </p>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="row">
-                                    <div class="card col-6">
+                                    <div class="card col-lg-6 col-md-6 col-sm-12">
                                         <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
-                                    <div class="card col-6">
+                                    <div class="card col-lg-6 col-md-6 col-sm-12">
                                         <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,11 +128,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 personalDetail">
+                            <div class="col-lg-6 col-md-6 col-sm-12 personalDetail">
                                 <h3 class="mb-5">PERSONAL DETAIL</h3>
                                 <div class="row">
-                                <p class="text-muted">Full Name</p><p>:</p><p>John Doe</p>
+                                <div class="d-inline-flex">
+                                    <p class="text-muted">Full Name<p>:<p><p>John Doe</p>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
