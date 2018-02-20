@@ -121,7 +121,7 @@
                                     <div class="card">
                                         <i class="far fa-lightbulb fa-w-12 fa-2x img cyanIcon"></i>
                                         <div class="card-body">
-                                            <p class="card-text">Logo Design.</p>
+                                            <p class="card-text">Logo Design</p>
                                         </div>
                                     </div>
                                 </div>
@@ -172,12 +172,12 @@
                                 <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                             </div>
                         </div>
-                        <div class="row text-center cyanBackground mt-5" id="hireMe">
+                        <div class="row text-center cyanBackground" id="hireMe">
                             <span class="col-12 col-md-2 p-2">
                                 <i class="far fa-image fa-3x"></i>
                             </span>
-                            <p class="col-12 col-md-6">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
-                            <span class="col-12 col-md-4 mt-2">
+                            <p class="col-12 col-md-6 mt-3">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                            <span class="col-12 col-md-4 mt-3">
                                 <button class="buttonHireMe">
                                     <i class="far fa-envelope fa-lg"></i>Hire Me
                                 </button>

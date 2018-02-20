@@ -67,17 +67,24 @@ h2{
     color: $blockColor;
 }
 
-.cyanBackground{
+.cyanBackground, .cyanBlock{
     background-color: $blockColor;
     color: $primaryColor;
 }
 
 .cyanBlock{
-    background-color: $blockColor;
-    color: $primaryColor;
     border: none;
     width: 15rem;
     height: 4rem;
+}
+
+.cyanBackground{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    .fa-image{
+        margin-top: 10%;
+    }
 }
 
 #firefoxIcon{
@@ -102,7 +109,7 @@ h2{
 
 .buttonHireMe{
     border: none;
-    width: 12rem;
+    width: 10rem;
     height: 3rem;
     //float: right;
 }
