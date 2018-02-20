@@ -7,7 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-            <div class="">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block col-12">
                         <div class="card">
@@ -169,14 +169,17 @@
                                     <p class="text-muted">Website<p>:</p><p>http://example.com</p>
                                 </div>
                             </div>
-                            <div class="row p-3" id="hire me">
-                                <span>
-                                    <i class="fas fa-image"></i><p>Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                            <div class="row text-center" id="hireMe">
+                                <span class="col-12 col-md-2">
+                                    <i class="fas fa-image fa-3x"></i>
                                 </span>
-                                <span>
-                                    <i class="far fa-envelope"></i>
-                                    Hire Me
+                                <p class="col-12 col-md-6">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                                <span class="col-12 col-md-4">
+                                    <button class="">
+                                        <i class="far fa-envelope fa-lg"></i>Hire Me
+                                    </button>
                                 </span>
+
                             </div>
                         </div>
                     </div>

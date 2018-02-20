@@ -2,7 +2,7 @@ $primaryColor: white;
 $blockColor: #00D7BB;
 
 body{
-    margin: 2.5%;
+    //margin: 2.5%;
     background-color:#1a1a1a;
 }
 
@@ -63,4 +63,8 @@ h2{
     border: none;
     width: 15rem;
     height: 4rem;
+}
+
+#hireMe {
+    background-color:  $blockColor;
 }
