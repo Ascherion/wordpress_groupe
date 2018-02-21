@@ -1,0 +1,116 @@
+@import '_var';
+
+body{
+    margin: 2.5%;
+    background-color:#1a1a1a;
+}
+
+p{
+    color: $primaryColor;
+}
+
+h2{
+    color: $primaryColor;
+}
+
+.carousel-caption{
+    button{
+        float: left;
+    }
+}
+
+.navbar, .carousel{
+    margin-bottom: 2%;
+}
+
+.card{
+    border-radius: 0;
+    background-color: #2C2C2C;
+    margin-bottom: 5%;
+}
+
+.aboutMe{
+    padding: 2rem;
+    .card:hover{
+        p{
+           /* {
+                background-color: $blockColor;
+            }*/
+
+        }
+    }
+}
+
+.personalDetail{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border-bottom: solid 1px $primaryColor ;
+    h6{
+        color: $primaryColor;
+    }
+}
+
+.img{
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+.bgDark{
+    background-color: #222222;
+}
+
+.cyanIcon{
+    color: $blockColor;
+}
+
+.cyanBackground, .cyanBlock{
+    background-color: $blockColor;
+    color: $primaryColor;
+}
+
+.cyanBlock{
+    border: none;
+    width: 15rem;
+    height: 4rem;
+}
+
+.cyanBackground{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    .fa-image{
+        margin-top: 10%;
+    }
+}
+
+#firefoxIcon{
+    color: $firefoxColor;
+}
+
+#desktopIcon{
+    color: $desktopColor;
+}
+
+#phoneIcon{
+    color: $appliColor;
+}
+
+
+.bgMargin{
+    padding: 3rem;
+    @media (max-width: 960px){
+        margin: 1rem;
+    }
+}
+
+.buttonHireMe{
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    //float: right;
+}
+
+
+.marginBottom{
+    margin-bottom: 6rem;
+}

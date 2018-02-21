@@ -1,0 +1,85 @@
+body {
+  margin: 2.5%;
+  background-color: #1a1a1a; }
+
+p {
+  color: white; }
+
+h2 {
+  color: white; }
+
+.carousel-caption button {
+  float: left; }
+
+.navbar, .carousel {
+  margin-bottom: 2%; }
+
+.card {
+  border-radius: 0;
+  background-color: #2C2C2C;
+  margin-bottom: 5%; }
+
+.aboutMe {
+  padding: 2rem; }
+  .aboutMe .card:hover p {
+    /* {
+         background-color: $blockColor;
+     }*/ }
+
+.personalDetail {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-bottom: solid 1px white; }
+  .personalDetail h6 {
+    color: white; }
+
+.img {
+  margin: 2rem;
+  margin-top: 2rem; }
+
+.bgDark {
+  background-color: #222222; }
+
+.cyanIcon {
+  color: #00D7BB; }
+
+.cyanBackground, .cyanBlock {
+  background-color: #00D7BB;
+  color: white; }
+
+.cyanBlock {
+  border: none;
+  width: 15rem;
+  height: 4rem; }
+
+.cyanBackground {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 5rem; }
+  .cyanBackground .fa-image {
+    margin-top: 10%; }
+
+#firefoxIcon {
+  color: #EF5350; }
+
+#desktopIcon {
+  color: #FBC02D; }
+
+#phoneIcon {
+  color: #AB47BC; }
+
+.bgMargin {
+  padding: 3rem; }
+  @media (max-width: 960px) {
+    .bgMargin {
+      margin: 1rem; } }
+
+.buttonHireMe {
+  border: none;
+  width: 10rem;
+  height: 3rem; }
+
+.marginBottom {
+  margin-bottom: 6rem; }
+
+/*# sourceMappingURL=style.css.map */
