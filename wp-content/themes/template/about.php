@@ -138,7 +138,7 @@ get_header();
                         <span class="col-12 col-md-2 p-2">
                             <i class="far fa-image fa-3x"></i>
                         </span>
-                        <p class="col-12 col-md-6 mt-3">Over Ten Year In The Game With 550+ Projects Successfully Done!</p>
+                        <p class="col-12 col-md-6 mt-3"><?php echo get_post_meta($post->ID, 'Hire', true); ?></p>
                         <span class="col-12 col-md-4 mt-3">
                             <button class="buttonHireMe">
                                 <i class="far fa-envelope fa-lg"></i>Hire Me
