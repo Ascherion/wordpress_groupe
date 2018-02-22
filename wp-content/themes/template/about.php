@@ -113,7 +113,7 @@ get_header();
                     <?php the_meta(); ?>
                         <h6 class="mb-5">PERSONAL DETAILS</h6>
                         <div class="d-flex justify-content-between post-meta">
-                            <p class="text-muted meta_key"><?php $key = get_post_custom_keys(); echo $key(0); ?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
+                            <p class="text-muted meta_key"><?php $key = get_post_custom_keys(); echo $key(); ?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(1); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Adress', true); ?></p>
