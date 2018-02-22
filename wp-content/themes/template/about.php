@@ -113,22 +113,22 @@ get_header();
                     <?php the_meta(); ?>
                         <h6 class="mb-5">PERSONAL DETAILS</h6>
                         <div class="d-flex justify-content-between post-meta">
-                            <p class="text-muted meta-key"><?php echo get_post_custom_keys();?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
+                            <p class="text-muted meta_key"><?php $key = get_post_custom_keys(); echo $key(0); ?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted">Address<p>:</p><p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(1); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Adress', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted">Zip Code<p>:</p><p>455001</p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(2); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Zip Code', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted">Phone<p>:</p><p>+91 123 456 7890 , 0123 456789</p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(3); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Phone', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted">Email<p>:</p><p>johndoe@example.com</p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(4); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Email', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted">Website<p>:</p><p>http://example.com</p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(5); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Website', true); ?></p>
                         </div>
                     </div>
 
