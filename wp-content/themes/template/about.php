@@ -113,7 +113,7 @@ get_header();
                     <?php the_meta(); ?>
                         <h6 class="mb-5">PERSONAL DETAILS</h6>
                         <div class="d-flex justify-content-between post-meta">
-                            <p class="text-muted post-meta-key">Full Name<p>:</p><p class="post-meta">John Doe</p>
+                            <p class="text-muted meta-key"><?php echo get_post_custom_keys();?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <p class="text-muted">Address<p>:</p><p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
