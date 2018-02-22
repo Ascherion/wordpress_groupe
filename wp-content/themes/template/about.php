@@ -104,9 +104,10 @@ get_header();
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 personalDetail underline">
+                    <?php the_meta(); ?>
                         <h6 class="mb-5">PERSONAL DETAILS</h6>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-muted">Full Name<p>:</p><p>John Doe</p>
+                        <div class="d-flex justify-content-between post-meta">
+                            <p class="text-muted post-meta-key">Full Name<p>:</p><p class="post-meta">John Doe</p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <p class="text-muted">Address<p>:</p><p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
