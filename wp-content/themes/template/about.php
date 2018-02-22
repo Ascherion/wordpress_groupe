@@ -113,22 +113,24 @@ get_header();
                     <?php the_meta(); ?>
                         <h6 class="mb-5">PERSONAL DETAILS</h6>
                         <div class="d-flex justify-content-between post-meta">
-                            <p class="text-muted meta_key"><?php $key = get_post_custom_keys(); echo $key(0); ?><p>:</p><p class="meta_value"><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
+                        <?php $custom_fields = get_post_custom(); 
+                        echo $custom_fields;?>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[3]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Full Name', true); ?></p>
+                        </div>
+                       <div class="d-flex justify-content-between">
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[4]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Adress', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(1); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Adress', true); ?></p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[5]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Zip Code', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(2); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Zip Code', true); ?></p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[6]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Phone', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(3); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Phone', true); ?></p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[7]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Email', true); ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(4); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Email', true); ?></p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key(5); ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Website', true); ?></p>
+                            <p class="text-muted"><?php $key = get_post_custom_keys(); echo $key[8]; ?><p>:</p><p><?php echo get_post_meta($post->ID, 'Website', true); ?></p>
                         </div>
                     </div>
 
