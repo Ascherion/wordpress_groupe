@@ -65,7 +65,7 @@ get_header();
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="sources/images/index.svg" alt="First slide">
+                                    <img class="" src="sources/images/tree.jpg" alt="First slide">
                                     <div class="carousel-caption d-none d-md-block">
                                         <div class="float-left">
                                             <h2>Hello</h2>
