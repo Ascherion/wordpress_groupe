@@ -9,18 +9,7 @@ get_header();
 ?>
         <div class="container-flex">
             <div class="row">
-                <div class="col-lg-4 d-none d-lg-block col-12">
-                    <div class="card">
-                        <img class="card-img-top" src="sources/images/index.svg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
+                <?php get_sidebar();?>
                 <div class="col-lg-8 col-12">
                     <nav class="navbar navbar-expand navbar-dark bgDark">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +18,7 @@ get_header();
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 list-inline">
                                 <li class="nav-item list-inline-item">
-                                    <a class="nav-link" href="http://localhost/wordpress/index.php/">Accueil</a>
+                                    <a class="nav-link" href="http://localhost/wordpress/index.php/Index/">Accueil</a>
                                 </li>
                                 <li class="nav-item active list-inline-item">
                                     <a class="nav-link" href="http://localhost/wordpress/index.php/about-me/">About<span class="sr-only">(current)</span></a>
