@@ -7,7 +7,7 @@
 */
 get_header();
 ?>
-            <div class="col-lg-8 col-12 offset-lg-4 bgDark aboutMe">
+            <div class="col-lg-8 col-12 offset-lg-4 bgDark aboutMe marginTop">
                 <h2 class="mb-5"><i class="far fa-user cyanIcon mr-2"></i>
                 <?php
                     while ( have_posts() ) : the_post();

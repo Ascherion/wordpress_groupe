@@ -2,7 +2,7 @@
     <div class="card">
         <img class="card-img-top" src="<?php echo get_post_meta(70, 'sbImage', true); ?>" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">CV de Wall-E</h5>
             <p class="card-text"><?php echo get_post_meta(70, 'sideBar', true); ?></p>
         </div>
         <div class="card-footer">

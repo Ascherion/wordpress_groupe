@@ -11,7 +11,7 @@ get_header();
                 <div class="row">
                     <?php get_sidebar();?>
 
-                    <div class="col-lg-8 offset-lg-4 col-12 bgDark bgMargin">
+                    <div class="col-lg-8 offset-lg-4 col-12 bgDark bgMargin marginTop">
                         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>

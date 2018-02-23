@@ -103,6 +103,12 @@ h2{
     }
 }
 
+.marginTop{
+    @media (min-width: 960px){
+        margin-top: -535px;
+    }
+}
+
 .buttonHireMe{
     border: none;
     width: 10rem;

@@ -74,6 +74,10 @@ h2 {
     .bgMargin {
       margin: 1rem; } }
 
+@media (min-width: 960px) {
+  .marginTop {
+    margin-top: -535px; } }
+
 .buttonHireMe {
   border: none;
   width: 10rem;
